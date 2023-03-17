@@ -27,5 +27,5 @@ def convert():
     )
     # return send_from_directory('data', f"{file.filename.split('.')[0]}_converted.srt", as_attachment=True)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
