@@ -1,0 +1,15 @@
+{
+    "functions": {
+      "api": {
+        "handler": "index.app",
+        "runtime": "python3.10"
+      }
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/api/:1"
+      }
+    ]
+  }
+  
