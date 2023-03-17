@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简转繁 SRT 文件转换器</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1c1e26;
+            color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">简转繁 SRT 文件转换器</h1>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form action="/convert" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="file" accept=".srt" class="form-control mb-3">
+                    <button type="submit" class="btn btn-primary btn-block">转换并下载</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
